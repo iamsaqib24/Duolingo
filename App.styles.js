@@ -38,11 +38,22 @@ const styles = StyleSheet.create({
       width: '48%',
       height: '48%',
     },
+
+    selectedContainer: {
+      backgroundColor: '#DDF4FE',
+      borderColor : '#81D5FE'
+    },
     optionImage: {
       width: '100%',
       flex: 1,
     },
-    optionText: {}
+    optionText: {
+      fontWeight: 'bold',
+    },
+    selectedText: {
+      fontWeight: 'bold',
+      color: '#40BEF7',
+    }
   });
 
   export default styles;
